@@ -1,0 +1,65 @@
+form {
+    display: flex;
+    flex-wrap: wrap;
+  }
+  
+  label {
+    flex: 0 0 48%;
+    margin-right: 10px;
+    margin-bottom: 10px;
+    padding: 5px; /* Added padding for better spacing */
+  }
+  
+  input,
+  textarea {
+    width: 100%;
+    box-sizing: border-box;
+    padding: 8px;
+    margin-bottom: 10px;
+  }
+  
+  button {
+    width: 100%;
+    padding: 10px;
+    font-size: 14px;
+    background-color: #007BFF;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+  }
+  
+  @media screen and (max-width: 767px) {
+    label {
+      flex: 0 0 100%;
+      margin-bottom: 10px;
+    }
+    button {
+      margin-top: 10px; /* Adjusted for better spacing */
+    }
+  }
+  
+  @media screen and (min-width: 768px) and (max-width: 1199px) {
+    button {
+      width: 100%;
+      padding: 10px;
+      font-size: 14px;
+      background-color: #007BFF;
+      color: #fff;
+      border: none;
+      cursor: pointer;
+    }
+  }
+  
+  @media screen and (min-width: 1200px) {
+    button {
+      width: 100%;
+      padding: 10px;
+      font-size: 14px;
+      background-color: #007BFF;
+      color: #fff;
+      border: none;
+      cursor: pointer;
+    }
+  }
+  
+  
