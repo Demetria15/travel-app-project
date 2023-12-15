@@ -10,7 +10,7 @@ function Home() {
       <Navbar />
       <HomeHero
         cName="hero"
-        heroImg="src/assets/asia.jpg"
+        heroImg="src/asia.jpg"
         title="Your Journey Your Story Your Memory"
         text="Discover the joy of exploring with a like-minded travel buddy, creating unforgettable memories that will last a lifetime. Choose your favorite spot and let the adventures begin!"
         btnClass="show"
